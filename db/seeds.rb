@@ -21,6 +21,7 @@ def seed_data
       end
       begin
         player.send("#{attr_name}=", value)
+        #comment
       rescue e
         raise e
       end
